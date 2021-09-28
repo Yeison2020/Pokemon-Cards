@@ -1,0 +1,93 @@
+#header {
+  text-align: center;
+  margin: 0 auto;
+}
+#pokemon-form-container {
+  text-align: center;
+}
+body {
+  background-color: #f9f2d7;
+}
+
+img {
+  height: 120px;
+  width: 120px;
+}
+
+.poke-card {
+  border: solid;
+  border-color: #ffcb05;
+  padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: 30px;
+  float: left;
+  text-align: center;
+  width: 100px;
+  height: 300px;
+}
+
+.poke-card:hover {
+  box-shadow: 0 8px 16px 0 #3f0071;
+}
+
+#pokemon-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+input[type="text"]:not(.edit-input) {
+  padding: 10px;
+  border: 0;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+input[type="submit"] {
+  background-color: #89c9b8;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  margin-left: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #519872;
+}
+
+label {
+  color: rgb(83, 79, 79);
+}
+
+#pokemon-form-container {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.like-bttn {
+  color: red;
+  font-size: larger;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.like-bttn:hover {
+  color: white;
+  background-color: red;
+}
+
+.delete-bttn {
+  color: red;
+  font-size: large;
+}
+
+.delete-bttn:hover {
+  background-color: #3f0071;
+}
